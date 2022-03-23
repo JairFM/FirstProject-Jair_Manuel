@@ -1,0 +1,149 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../img/background.png);
+}
+
+#formlocal {
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 10px;
+    padding: 40px;
+    width: 30%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+
+#formlocal .texto_registro {
+
+    font-family: Asap , sans-serif ;
+    color: white;
+    font-size: 30px;
+
+}
+
+
+#email p {
+
+    color: white;
+    font-family: Poppins , sans-serif;
+    font-size: 15px;
+
+}
+
+#email input {
+
+    display: inline-block;
+    padding: 5px;
+    width: 260px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid blueviolet;
+    outline: none;
+    color: white;
+    transition: all 0.3s ease-out;
+     font-size: 17px;
+    font-family: Nunito , sans-serif;
+
+}
+
+#email input:focus {
+
+    border-bottom: 1px solid rgb(255, 0, 212);
+    transform: scale(1.15,1.15);
+
+}
+
+#senha p {
+
+    color: white;
+    font-family: Poppins , sans-serif;
+    font-size: 15px;
+
+}
+
+#senha input {
+
+    display: inline-block;
+    padding: 5px;
+    width: 260px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid blueviolet;
+    outline: none;
+    color: white;
+    transition: all 0.3s ease-out;
+    font-size: 17px;
+    font-family: Nunito , sans-serif;
+
+}
+
+#senha input:focus {
+
+    border-bottom: 1px solid rgb(255, 0, 212);
+    transform: scale(1.15,1.15);
+
+}
+
+
+#formlocal button {
+
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: blueviolet;
+    border-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Poppins , sans-serif;
+    transition: all .3s ease;
+    border-radius: 5px;
+
+}
+
+#formlocal button a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#formlocal button:hover{
+
+    background-color: rgb(255, 0, 212);
+    letter-spacing: 3px;
+    transform: scale(1.10,1.10);
+
+}
+
+h1 {
+
+    font-family: Asap , sans-serif;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+h1 a {
+
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+.errorinput {
+
+    border-bottom: 1px solid rgb(255, 0, 0) !important;
+
+}
+

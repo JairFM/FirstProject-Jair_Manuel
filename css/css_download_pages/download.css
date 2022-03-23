@@ -1,0 +1,222 @@
+
+
+body {
+
+    padding: 0%;
+    margin: 0%;
+    background-color: #1B2029;
+   
+
+}
+
+/* estilizando o menu */
+
+#menu {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+#menu img {
+    margin-right: 40%;
+}
+
+
+#menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+#menu ul li a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Asap , sans-serif;
+    position: relative;
+    transition: all 0.3s ease;
+
+}
+
+#menu ul li a:hover{
+
+   color: rgb(209, 0, 209);
+   letter-spacing: 1px;
+
+}
+
+
+#menu img {
+    margin-top: 10px;
+    margin-right: 40%;
+}
+
+#menu ul li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    
+
+}
+
+#menu ul li a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Asap , sans-serif;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+
+}
+
+/*Submenu do histórico*/
+
+#menu .historico #submenu {
+
+display: none;
+position: absolute;
+width: 100%;
+margin-left: 74px;
+padding:20%;
+margin-top: 10px;
+
+
+}
+
+#menu .historico:hover #submenu {
+
+    display: block;
+    background-color: black ;
+    z-index: 2;
+    
+}
+
+#menu .historico #submenu li a {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+/*Continuação do menu*/
+
+
+#menu ul li a:hover {
+
+    background-color: rgb(209, 0, 209);
+    border-radius: 10px;
+    padding: 8px;
+    transition: all 0.3s ease;
+    color: black;
+    z-index: 1;
+    
+
+}
+
+/*Área abaixo do menu*/
+
+#wallpaper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 10%;
+
+}
+
+#wallpaper img {
+
+ 
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 2%;
+    
+}
+
+
+#areadownload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 70%;
+    bottom: 12%;
+
+}
+
+#areadownload {
+
+    font-family: Asap , sans-serif;
+    font-size: 20px;
+
+}
+
+#areadownload button{
+
+    width: 100%;
+    padding: 20px 120px;
+    background-color: blueviolet;
+    border: 0;
+    font-family: Poppins , sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;   
+}
+
+#areadownload button a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#areadownload .secondbutton {
+
+    margin-top: 15px;
+}
+
+#areadownload button:hover{
+
+    letter-spacing: 2px;
+    background-color: rgb(255, 0, 212);
+    transform: scale(1.10,1.10);
+
+}
+
+
+/*Rodapé*/
+
+    footer {
+        margin-top: 10%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 60%;
+    
+    }
+    
+    footer img {
+        
+        margin-left: 5%;
+    
+    }
